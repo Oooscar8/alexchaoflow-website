@@ -8,6 +8,6 @@ GitHub Pages 使用 main 分支根目录发布。本次仅发布静态网页；�
 
 初始本地验收：4 个 HTML 页面、57 个本地引用通过构建器检查；JavaScript 语法检查通过；浏览器检查截图切换、FAQ展开、隐私/支持导航，390px 宽度四页均无横向溢出。本轮没有修改或重跑 iOS App 测试。
 
-域名 `alexchaoflow.com` 尚待注册、GitHub TXT 所有权验证、Pages 自定义域名绑定、DNS 解析和 HTTPS 签发。配置顺序与官方记录以 [GitHub 文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) 为准。DNS 中不填写 `/jianshan/`，该路径已经由本站目录提供。
+2026-10-03 已确认域名 `alexchaoflow.com` 注册成功且 NS 委派 Cloudflare。GitHub TXT 所有权验证、网站 DNS、Pages 自定义域名绑定和 HTTPS 签发尚待完成；当前继续使用 GitHub Pages 默认地址。默认地址的部署与 HTTPS 状态不代表自定义域名已经验收。配置顺序与官方记录以 [GitHub 文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) 为准。DNS 中不填写 `/jianshan/`，该路径已经由本站目录提供。
 
 初始迁移保留历史 Sites 站点，不自动删除旧站点或覆盖用户已有博客。公开支持联系方式与实际 App Store 链接仍待补齐。

@@ -4,7 +4,7 @@
   "source_commit": "c0b533bd89c79a7dc6d4b80cd8b4e549ae13d86d",
   "source_directory": "Website",
   "target_domain": "alexchaoflow.com",
-  "domain_status": "registration-and-verification-pending",
+  "domain_status": "registered-dns-and-verification-pending",
   "files_sha256": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "index.html": "59940832c80d62ab71a78ffe42f54011f5b66833c499f42502d4347ef560c3b8",
@@ -17,5 +17,7 @@
     "jianshan/site.js": "6a587fa600b9a23bf008c7a7ec06dcd5a7b0ac193412d67951f7279221207778",
     "jianshan/styles.css": "0fb944543616767e20cc813465ece91083baca36d8057dfedd87b37f55b2d119",
     "jianshan/support/index.html": "05b4b91e14aed63a96d6e33bec05de8ef0186c98efb530dffba4dee99a190562"
-  }
+  },
+  "domain_status_checked_on": "2026-10-03",
+  "registration_confirmed": true
 }
