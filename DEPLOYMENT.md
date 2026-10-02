@@ -8,6 +8,6 @@ GitHub Pages 使用 main 分支根目录发布。本次仅发布静态网页；�
 
 初始本地验收：4 个 HTML 页面、57 个本地引用通过构建器检查；JavaScript 语法检查通过；浏览器检查截图切换、FAQ展开、隐私/支持导航，390px 宽度四页均无横向溢出。本轮没有修改或重跑 iOS App 测试。
 
-2026-10-03 已确认域名 `alexchaoflow.com` 注册成功且 NS 委派 Cloudflare。随后已完成 GitHub TXT 所有权验证与 Pages 绑定，GitHub 自动新增 CNAME（提交 `418b8d1`），维护时须保留。网站 DNS、HTTPS 签发及公开访问验收仍待完成。旧 GitHub Pages 官网地址已 301 跳转至 `http://alexchaoflow.com/jianshan/`，不能继续当作独立备用入口；自定义域名当前处于切换配置中。配置顺序与官方记录以 [GitHub 文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) 为准。DNS 中不填写 `/jianshan/`，该路径已经由本站目录提供。
+2026-10-03 已确认域名 `alexchaoflow.com` 注册成功且 NS 委派 Cloudflare。随后已完成 GitHub TXT 所有权验证与 Pages 绑定，GitHub 自动新增 CNAME（提交 `418b8d1`），维护时须保留。网站记录已切换为 DNS only，权威及公共 DNS 核对通过；GitHub 证书已批准，覆盖主域和 www，并已启用强制 HTTPS。正式入口为 `https://alexchaoflow.com/jianshan/`。显式公开 IP 的 11 个资源/16 个跳转共 27/27 通过，正常 TLS 与内容哈希匹配，另外三个 GitHub 入口的 HTTPS HEAD 也通过。验证机器普通解析随后恢复，系统解析首轮 26/27 因一个连接重置失败，另一次完整运行 27/27 通过，四页普通浏览器访问通过；历史失败与最终运行独立留存。旧地址应跳转正式域名，不能当作独立备用入口。配置顺序与官方记录以 [GitHub 文档](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) 为准。DNS 中不填写 `/jianshan/`，该路径已经由本站目录提供。
 
 初始迁移保留历史 Sites 站点，不自动删除旧站点或覆盖用户已有博客。公开支持联系方式与实际 App Store 链接仍待补齐。
