@@ -4,7 +4,7 @@
   "source_commit": "c0b533bd89c79a7dc6d4b80cd8b4e549ae13d86d",
   "source_directory": "Website",
   "target_domain": "alexchaoflow.com",
-  "domain_status": "registered-dns-and-verification-pending",
+  "domain_status": "github-verified-and-bound-dns-https-pending",
   "files_sha256": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "index.html": "59940832c80d62ab71a78ffe42f54011f5b66833c499f42502d4347ef560c3b8",
@@ -19,5 +19,10 @@
     "jianshan/support/index.html": "05b4b91e14aed63a96d6e33bec05de8ef0186c98efb530dffba4dee99a190562"
   },
   "domain_status_checked_on": "2026-10-03",
-  "registration_confirmed": true
+  "registration_confirmed": true,
+  "github_ownership_verified": true,
+  "pages_custom_domain": "alexchaoflow.com",
+  "cname_commit": "418b8d10f9307343b95251c4cdfcc93e431a214c",
+  "website_dns_configured": false,
+  "custom_domain_https_verified": false
 }
