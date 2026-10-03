@@ -1,0 +1,96 @@
+{
+  "checked_at_utc": "2026-10-03T08:19:38.747245+00:00",
+  "scope": "local repository migration checks; not deployed browser or HTTP acceptance",
+  "baseline_website_commit": "c86b85dc8da5513a75a9d396ff635b6f2ac32684",
+  "original_assets": [
+    {
+      "path": ".nojekyll",
+      "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged": true
+    },
+    {
+      "path": "index.html",
+      "before_sha256": "59940832c80d62ab71a78ffe42f54011f5b66833c499f42502d4347ef560c3b8",
+      "after_sha256": "59940832c80d62ab71a78ffe42f54011f5b66833c499f42502d4347ef560c3b8",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/assets/app-icon.png",
+      "before_sha256": "f3f1ecf4add30237562980a31c77d83fafb87efb3b336892f49db43f942a693a",
+      "after_sha256": "f3f1ecf4add30237562980a31c77d83fafb87efb3b336892f49db43f942a693a",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/assets/assets.png",
+      "before_sha256": "e3999a47959de0f28c166754c06a367a859e9c1ef23ddd926b351d98b8f365e9",
+      "after_sha256": "e3999a47959de0f28c166754c06a367a859e9c1ef23ddd926b351d98b8f365e9",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/assets/expenses.png",
+      "before_sha256": "3d04551c9bad07f3b4ee96d837543dd7b960f4778f7355dae9d0452cee3c3ba2",
+      "after_sha256": "3d04551c9bad07f3b4ee96d837543dd7b960f4778f7355dae9d0452cee3c3ba2",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/assets/overview.png",
+      "before_sha256": "e4dba4d49dd6ae625b599779f54e81e22758bdaced114eaa5732b4e17b102a30",
+      "after_sha256": "e4dba4d49dd6ae625b599779f54e81e22758bdaced114eaa5732b4e17b102a30",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/index.html",
+      "before_sha256": "bfdd3065c795c8a31e94da2b071d55936cf19fdc2555b1186ceca4c83a424b0c",
+      "after_sha256": "569bf2c996f8439b86353dcfc99b95f507d4339be1becc663d780bf7196542bb",
+      "unchanged": false
+    },
+    {
+      "path": "jianshan/privacy/index.html",
+      "before_sha256": "b1092e354e68d3061832255ce8a133058d7229109a9be4c995b91fba2547529d",
+      "after_sha256": "b1092e354e68d3061832255ce8a133058d7229109a9be4c995b91fba2547529d",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/site.js",
+      "before_sha256": "6a587fa600b9a23bf008c7a7ec06dcd5a7b0ac193412d67951f7279221207778",
+      "after_sha256": "6a587fa600b9a23bf008c7a7ec06dcd5a7b0ac193412d67951f7279221207778",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/styles.css",
+      "before_sha256": "0fb944543616767e20cc813465ece91083baca36d8057dfedd87b37f55b2d119",
+      "after_sha256": "0fb944543616767e20cc813465ece91083baca36d8057dfedd87b37f55b2d119",
+      "unchanged": true
+    },
+    {
+      "path": "jianshan/support/index.html",
+      "before_sha256": "05b4b91e14aed63a96d6e33bec05de8ef0186c98efb530dffba4dee99a190562",
+      "after_sha256": "05b4b91e14aed63a96d6e33bec05de8ef0186c98efb530dffba4dee99a190562",
+      "unchanged": true
+    }
+  ],
+  "original_assets_unchanged": 10,
+  "original_assets_total": 11,
+  "homepage_only_change": "one footer link to releases/1.0.0/; removing it restores original SHA-256",
+  "cname_bytes_unchanged": true,
+  "html_pages": 5,
+  "local_references": 73,
+  "current_assets": 13,
+  "unit_tests": {
+    "total": 13,
+    "passed": 13
+  },
+  "javascript_syntax": "passed: node --check site/jianshan/site.js",
+  "workflow_yaml_syntax": "parsed with Ruby standard-library YAML; jobs check/deploy present",
+  "python_ast": "passed for scripts and tests",
+  "report_overwrite_guard": {
+    "exit_code": 2,
+    "preserved_existing_bytes": true
+  },
+  "source_revision": {
+    "type": "sha256-file-manifest",
+    "sha256": "c1d2350cea7472ea8416e4586127653846a993da7f35c28d576c7518923bddb1"
+  },
+  "production_verification": "pending root coordinator deployment and browser verification"
+}
