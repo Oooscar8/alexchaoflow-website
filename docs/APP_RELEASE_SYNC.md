@@ -14,7 +14,7 @@
 
 更新说明地址为 `https://alexchaoflow.com/jianshan/releases/<version>/`，页面文件是该目录的 index.html，notes_sha256 对应页面原始字节。GitHub release、归档成功、签名或上传成功均不能单独证明 App Store 已发布。公开 URL 格式检查也不能证明安装可用，发布时必须核实实际 Apple 状态。
 
-当前记录为 1.0.0、build 3、prepared；本次新增 App 设置中的“使用支持与反馈”官网入口，仍无公开下载；公开支持邮箱为 support@alexchaoflow.com。未来状态变更更新该版本唯一记录及说明页，旧阶段保留在 Git 历史。说明页必须有可见数据块标记 data-release-version、data-release-build、data-release-state，正文同时显示版本、构建和“准备中 / 测试中 / 已发布”的对应状态。每次更新说明先修改网页，再重新计算 notes_sha256，最后运行 scripts/update_manifest.py。
+当前记录为 1.0.0、build 4、prepared；本次将参考汇率固定为 ECB 单一来源，由 Frankfurter 换算为人民币基准，再由 App 显示每单位外币对应的人民币，仍无公开下载；公开支持邮箱为 support@alexchaoflow.com。未来状态变更更新该版本唯一记录及说明页，旧阶段保留在 Git 历史。说明页必须有可见数据块标记 data-release-version、data-release-build、data-release-state，正文同时显示版本、构建和“准备中 / 测试中 / 已发布”的对应状态。每次更新说明先修改网页，再重新计算 notes_sha256，最后运行 scripts/update_manifest.py。
 
 ## 每次版本发布的步骤
 
@@ -28,3 +28,5 @@
 App 仓库控制自身发布门禁，网站仓库不持有 App 私有仓库访问令牌，也不调用 Apple 发布。当前采用明确的双仓发布检查；不存在通过 App 推送自动生成产品说明的流程。
 
 公开支持联系方式或隐私说明变化时，即使 App version/build 不变，也应更新官网说明与 notes_sha256，并刷新 App 仓库固定网站提交和官网同步证据。邮件 DNS / 转发规则配置成功与真实收件成功分别记录，详见[支持邮箱维护](SUPPORT_CONTACT.md)。
+
+构建 4 的汇率口径以 [ECB 参考汇率](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html)及 [Frankfurter 单一来源 API](https://frankfurter.dev/)为依据。保持 App 设置、离线政策和官网对来源及换算方向的描述一致，避免把每日参考汇率描述为实时交易报价。

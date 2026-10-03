@@ -35,7 +35,7 @@
   },
   "source_revision": {
     "type": "sha256-file-manifest",
-    "sha256": "398ff9d7ab965b81e7f572aa5fa6151bcc5a3f6b4cafd82122a7a6b0b6143cf5"
+    "sha256": "9944c340488f254279d82923ea3f13f2357dbb9b6986aaeb5f73857a5b985a94"
   },
   "files_sha256": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -44,33 +44,20 @@
     "jianshan/assets/assets.png": "e3999a47959de0f28c166754c06a367a859e9c1ef23ddd926b351d98b8f365e9",
     "jianshan/assets/expenses.png": "3d04551c9bad07f3b4ee96d837543dd7b960f4778f7355dae9d0452cee3c3ba2",
     "jianshan/assets/overview.png": "e4dba4d49dd6ae625b599779f54e81e22758bdaced114eaa5732b4e17b102a30",
-    "jianshan/index.html": "569bf2c996f8439b86353dcfc99b95f507d4339be1becc663d780bf7196542bb",
-    "jianshan/privacy/index.html": "da10c14d2b72db63c830b1240afe8a5970cf2c6c342317dc17bfe61fdd711c23",
-    "jianshan/releases/1.0.0/index.html": "bba356f2097396e8a53e2e9acffd86a50465b620e08d302aa128fa2c187b2382",
-    "jianshan/releases.json": "b30b663e0ca1b9f76af6dce23b99fcc343e686d71481a2ee8a2711532186e7e4",
+    "jianshan/index.html": "ef2016db4aa21fd97c29cfe806be66b9da4309ebd59fa0eac54127c18869d674",
+    "jianshan/privacy/index.html": "222db113d804e0b95ba3d6d3c2de9ff12d8384c54bac94c85887b1005e37ad75",
+    "jianshan/releases/1.0.0/index.html": "e8213133ba9cded70cba05ce10055151153c0e647255745d42c7a2ac11319f82",
+    "jianshan/releases.json": "0cc4d4da94bb421624725c0f2e093eba762b298cfe7f269f9efd0fb3c4de218a",
     "jianshan/site.js": "6a587fa600b9a23bf008c7a7ec06dcd5a7b0ac193412d67951f7279221207778",
     "jianshan/styles.css": "0fb944543616767e20cc813465ece91083baca36d8057dfedd87b37f55b2d119",
-    "jianshan/support/index.html": "acb89505cda87d926c582b0a598c730c65d9b5879dacf6ab98b0c7364fbfe325"
+    "jianshan/support/index.html": "ca60ac167f6c38a6505ce4596a1ba9e75ab1946a97bd3ec2e057ba2b4d4fcd22"
   },
   "content_update": {
     "app_version": "1.0.0",
-    "app_build": "3",
+    "app_build": "4",
     "state": "prepared",
-    "verification_status": "verified-http-system-dns",
-    "local_report": "docs/reports/2026-10-03-jianshan-build3-preparation.md",
-    "verification": {
-      "website_commit": "d099fa2cfe50ac25e3c352baeff4671775608a65",
-      "actions_run": "https://github.com/Oooscar8/alexchaoflow-website/actions/runs/37116877131",
-      "http_total": 29,
-      "http_passed": 29,
-      "first_http_report": "docs/reports/2026-10-03-jianshan-build3-production-first.json",
-      "first_http_passed": 28,
-      "http_report": "docs/reports/2026-10-03-jianshan-build3-production-recheck.json",
-      "dns_mode": "system-resolver",
-      "tls_validation_disabled": false,
-      "browser_acceptance": "not-run-for-build3-device-locked",
-      "verified_at_utc": "2026-10-03T10:38:51.843513+00:00"
-    }
+    "verification_status": "prepared-awaiting-production-verification",
+    "local_report": "docs/reports/2026-10-03-jianshan-build4-ecb.md"
   },
   "support_contact": {
     "address": "support@alexchaoflow.com",
@@ -80,8 +67,8 @@
     "exact_rule_active": true,
     "catch_all_enabled": false,
     "dns_verified_at_utc": "2026-10-03T13:44:36.099705+00:00",
-    "end_to_end_receipt_verified": false,
-    "verification_status": "configured-awaiting-receipt-test",
+    "end_to_end_receipt_verified": true,
+    "verification_status": "receipt-confirmed-by-user",
     "documentation": "docs/SUPPORT_CONTACT.md",
     "website_verification_status": "deployed-partial-network-timeouts",
     "website_verification": {
@@ -98,6 +85,36 @@
       "tls_validation_disabled": false,
       "full_single_run_http_passed": false,
       "browser_acceptance": "not-run-this-update"
+    },
+    "receipt_evidence": {
+      "method": "user-report",
+      "independent_inbox_inspection": false,
+      "sender_different_from_destination": true,
+      "reported_on": "2026-10-03",
+      "recorded_at_utc": "2026-10-03T14:11:13.251258+00:00",
+      "report": "docs/reports/2026-10-03-support-email-receipt-user-report.md"
     }
-  }
+  },
+  "historical_content_updates": [
+    {
+      "app_version": "1.0.0",
+      "app_build": "3",
+      "state": "prepared",
+      "verification_status": "verified-http-system-dns",
+      "local_report": "docs/reports/2026-10-03-jianshan-build3-preparation.md",
+      "verification": {
+        "website_commit": "d099fa2cfe50ac25e3c352baeff4671775608a65",
+        "actions_run": "https://github.com/Oooscar8/alexchaoflow-website/actions/runs/37116877131",
+        "http_total": 29,
+        "http_passed": 29,
+        "first_http_report": "docs/reports/2026-10-03-jianshan-build3-production-first.json",
+        "first_http_passed": 28,
+        "http_report": "docs/reports/2026-10-03-jianshan-build3-production-recheck.json",
+        "dns_mode": "system-resolver",
+        "tls_validation_disabled": false,
+        "browser_acceptance": "not-run-for-build3-device-locked",
+        "verified_at_utc": "2026-10-03T10:38:51.843513+00:00"
+      }
+    }
+  ]
 }

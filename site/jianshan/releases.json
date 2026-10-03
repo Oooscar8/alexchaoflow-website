@@ -4,11 +4,11 @@
   "releases": [
     {
       "version": "1.0.0",
-      "build": "3",
+      "build": "4",
       "state": "prepared",
       "updated_at": "2026-10-03",
       "notes_url": "https://alexchaoflow.com/jianshan/releases/1.0.0/",
-      "notes_sha256": "bba356f2097396e8a53e2e9acffd86a50465b620e08d302aa128fa2c187b2382",
+      "notes_sha256": "e8213133ba9cded70cba05ce10055151153c0e647255745d42c7a2ac11319f82",
       "app_store_url": null,
       "testflight_url": null
     }

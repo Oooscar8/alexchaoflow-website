@@ -2,6 +2,10 @@
 
 网站公开地址为 `support@alexchaoflow.com`，用于使用问题、建议及隐私相关请求。支持页、隐私政策和当前版本说明都提供对应 mailto 链接；用户点击后由自己的邮件客户端发信，网站没有新增表单或邮件发送后端。
 
+## 最新收件证据（2026-10-03）
+
+用户报告从不同于目标收件邮箱的另一个邮箱向 support 地址发信后已收到。当前收件状态为 receipt-confirmed-by-user，证据来源是用户确认；Agent 未独立查看收件箱或邮件头。详见[新的日期报告](reports/2026-10-03-support-email-receipt-user-report.md)。下方保留的是完成配置、尚未收到用户确认时的历史状态。
+
 ## 配置与验证状态
 
 2026-10-03 已确认 Cloudflare Email Routing 目标地址通过验证、精确 support 规则 Active、catch-all Disabled。目标收件邮箱及账户资料只保留在服务配置中，不保存到网页或此公开仓库。

@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-03T14:12:13.751748+00:00",
+  "scope": "local website build 4 preparation; no Apple release claim",
+  "record": {
+    "version": "1.0.0",
+    "build": "4",
+    "state": "prepared",
+    "updated_at": "2026-10-03",
+    "notes_url": "https://alexchaoflow.com/jianshan/releases/1.0.0/",
+    "notes_sha256": "e8213133ba9cded70cba05ce10055151153c0e647255745d42c7a2ac11319f82",
+    "app_store_url": null,
+    "testflight_url": null
+  },
+  "html_pages": 5,
+  "local_references": 74,
+  "files_sha256_checked": 13,
+  "unit_tests": {
+    "total": 13,
+    "passed": 13
+  },
+  "javascript_syntax": "passed",
+  "changed_web_assets": [
+    "jianshan/index.html",
+    "jianshan/privacy/index.html",
+    "jianshan/releases/1.0.0/index.html",
+    "jianshan/releases.json",
+    "jianshan/support/index.html"
+  ],
+  "unchanged_web_assets": 8,
+  "source_revision": {
+    "type": "sha256-file-manifest",
+    "sha256": "9944c340488f254279d82923ea3f13f2357dbb9b6986aaeb5f73857a5b985a94"
+  },
+  "private_gmail_addresses_in_site": 0,
+  "mail_receipt_evidence_method": "user-report",
+  "independent_inbox_inspection": false,
+  "browser_acceptance": "not-run-this-update"
+}
