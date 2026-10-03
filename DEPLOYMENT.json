@@ -83,6 +83,21 @@
     "end_to_end_receipt_verified": false,
     "verification_status": "configured-awaiting-receipt-test",
     "documentation": "docs/SUPPORT_CONTACT.md",
-    "website_verification_status": "prepared-awaiting-production-verification"
+    "website_verification_status": "deployed-partial-network-timeouts",
+    "website_verification": {
+      "website_commit": "8c5e0cac94d3d31fad3f5d0eba85aa18da41608c",
+      "actions_run": "https://github.com/Oooscar8/alexchaoflow-website/actions/runs/37127404041",
+      "first_http_total": 29,
+      "first_http_passed": 26,
+      "first_http_report": "docs/reports/2026-10-03-public-support-email-production-first.json",
+      "recheck_http_total": 29,
+      "recheck_http_passed": 27,
+      "recheck_http_report": "docs/reports/2026-10-03-public-support-email-production-recheck.json",
+      "checked_at_utc": "2026-10-03T13:50:26.921638+00:00",
+      "dns_mode": "system-resolver",
+      "tls_validation_disabled": false,
+      "full_single_run_http_passed": false,
+      "browser_acceptance": "not-run-this-update"
+    }
   }
 }
