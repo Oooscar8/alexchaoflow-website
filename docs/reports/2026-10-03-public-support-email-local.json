@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-03T13:47:39.055214+00:00",
+  "scope": "local website contact publication checks; real email receipt unverified",
+  "public_address": "support@alexchaoflow.com",
+  "contact_page_checks": [
+    {
+      "path": "jianshan/support/index.html",
+      "mailto": "mailto:support@alexchaoflow.com",
+      "visible_address": true
+    },
+    {
+      "path": "jianshan/privacy/index.html",
+      "mailto": "mailto:support@alexchaoflow.com",
+      "visible_address": true
+    },
+    {
+      "path": "jianshan/releases/1.0.0/index.html",
+      "mailto": "mailto:support@alexchaoflow.com",
+      "visible_address": true
+    }
+  ],
+  "gmail_addresses_in_site": 0,
+  "changed_web_assets": [
+    "jianshan/privacy/index.html",
+    "jianshan/releases/1.0.0/index.html",
+    "jianshan/releases.json",
+    "jianshan/support/index.html"
+  ],
+  "unchanged_web_assets": 9,
+  "html_pages": 5,
+  "local_references": 74,
+  "files_sha256_checked": 13,
+  "unit_tests": {
+    "total": 13,
+    "passed": 13
+  },
+  "javascript_syntax": "passed",
+  "source_revision": {
+    "type": "sha256-file-manifest",
+    "sha256": "398ff9d7ab965b81e7f572aa5fa6151bcc5a3f6b4cafd82122a7a6b0b6143cf5"
+  },
+  "end_to_end_receipt_verified": false,
+  "browser_acceptance": "not-run-this-update"
+}

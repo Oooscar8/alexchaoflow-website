@@ -2,7 +2,7 @@
 
 这是 AlexChaoFlow 个人网站，以及见山和未来其他 App 官网的唯一网页源码仓库。网站使用静态 HTML、CSS、JavaScript 和图片，没有运行时后端或数据库。
 
-正式入口：[个人首页](https://alexchaoflow.com/) · [见山官网](https://alexchaoflow.com/jianshan/) · [隐私政策](https://alexchaoflow.com/jianshan/privacy/) · [使用支持](https://alexchaoflow.com/jianshan/support/)。见山当前官网记录为 1.0.0（构建 3）准备版本，新增 App 内使用支持入口；仍在准备上架，尚无公开 App 下载或公开支持联系方式。
+正式入口：[个人首页](https://alexchaoflow.com/) · [见山官网](https://alexchaoflow.com/jianshan/) · [隐私政策](https://alexchaoflow.com/jianshan/privacy/) · [使用支持](https://alexchaoflow.com/jianshan/support/)。见山当前官网记录为 1.0.0（构建 3）准备版本，新增 App 内使用支持入口；仍在准备上架，尚无公开 App 下载。公开支持邮箱为 [support@alexchaoflow.com](mailto:support@alexchaoflow.com)。
 
 ## 开发入口
 
@@ -14,6 +14,7 @@
 | 网站架构与职责 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | 本地验证、浏览器检查与线上验证 | [docs/TESTING.md](docs/TESTING.md) |
 | 发布、域名与故障排查 | [DEPLOYMENT.md](DEPLOYMENT.md) |
+| 支持邮箱配置与验证边界 | [docs/SUPPORT_CONTACT.md](docs/SUPPORT_CONTACT.md) |
 | App 版本与官网同步 | [docs/APP_RELEASE_SYNC.md](docs/APP_RELEASE_SYNC.md) |
 | 当前网页文件摘要 | [DEPLOYMENT.json](DEPLOYMENT.json) |
 | 迭代记录 | [docs/iterations/README.md](docs/iterations/README.md) |
