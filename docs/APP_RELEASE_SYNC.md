@@ -14,7 +14,7 @@
 
 更新说明地址为 `https://alexchaoflow.com/jianshan/releases/<version>/`，页面文件是该目录的 index.html，notes_sha256 对应页面原始字节。GitHub release、归档成功、签名或上传成功均不能单独证明 App Store 已发布。公开 URL 格式检查也不能证明安装可用，发布时必须核实实际 Apple 状态。
 
-当前记录为 1.0.0、build 2、prepared。未来状态变更更新该版本唯一记录及说明页，旧阶段保留在 Git 历史。说明页必须有可见数据块标记 data-release-version、data-release-build、data-release-state，正文同时显示版本、构建和“准备中 / 测试中 / 已发布”的对应状态。每次更新说明先修改网页，再重新计算 notes_sha256，最后运行 scripts/update_manifest.py。
+当前记录为 1.0.0、build 3、prepared；本次新增 App 设置中的“使用支持与反馈”官网入口，仍无公开下载或公开支持联系方式。未来状态变更更新该版本唯一记录及说明页，旧阶段保留在 Git 历史。说明页必须有可见数据块标记 data-release-version、data-release-build、data-release-state，正文同时显示版本、构建和“准备中 / 测试中 / 已发布”的对应状态。每次更新说明先修改网页，再重新计算 notes_sha256，最后运行 scripts/update_manifest.py。
 
 ## 每次版本发布的步骤
 

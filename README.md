@@ -2,7 +2,7 @@
 
 这是 AlexChaoFlow 个人网站，以及见山和未来其他 App 官网的唯一网页源码仓库。网站使用静态 HTML、CSS、JavaScript 和图片，没有运行时后端或数据库。
 
-正式入口：[个人首页](https://alexchaoflow.com/) · [见山官网](https://alexchaoflow.com/jianshan/) · [隐私政策](https://alexchaoflow.com/jianshan/privacy/) · [使用支持](https://alexchaoflow.com/jianshan/support/)。见山目前仍在准备上架，尚无公开 App 下载。
+正式入口：[个人首页](https://alexchaoflow.com/) · [见山官网](https://alexchaoflow.com/jianshan/) · [隐私政策](https://alexchaoflow.com/jianshan/privacy/) · [使用支持](https://alexchaoflow.com/jianshan/support/)。见山当前官网记录为 1.0.0（构建 3）准备版本，新增 App 内使用支持入口；仍在准备上架，尚无公开 App 下载或公开支持联系方式。
 
 ## 开发入口
 
