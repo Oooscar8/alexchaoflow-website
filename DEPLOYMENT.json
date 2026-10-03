@@ -14,7 +14,16 @@
     "workflow": ".github/workflows/pages.yml",
     "artifact_directory": "site",
     "commit_provenance_url": "https://alexchaoflow.com/deployment.json",
-    "migration_status": "prepared-awaiting-production-verification"
+    "migration_status": "verified-live-actions",
+    "verification": {
+      "website_commit": "9141b604aadbdaac585bdcfe6c8f822ee026d03f",
+      "actions_run": "https://github.com/Oooscar8/alexchaoflow-website/actions/runs/37109513230",
+      "http_total": 29,
+      "http_passed": 29,
+      "http_report": "docs/reports/2026-10-03-source-migration-production.json",
+      "browser_report": "docs/reports/2026-10-03-source-migration-browser.json",
+      "verified_at_utc": "2026-10-03T08:30:19.880250+00:00"
+    }
   },
   "domain_configuration": {
     "registrar_and_dns": "Cloudflare",

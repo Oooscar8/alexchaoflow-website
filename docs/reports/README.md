@@ -3,3 +3,5 @@
 - [2026-10-03：仓库迁移本地检查](2026-10-03-source-migration.md)
 
 每次发布以新文件名保留实际检查证据；本地、CI、线上 HTTP 和浏览器验收分别说明，不能相互替代。
+
+线上原始证据：[29项HTTP验证](2026-10-03-source-migration-production.json) · [浏览器五页检查](2026-10-03-source-migration-browser.json)。

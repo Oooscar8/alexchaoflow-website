@@ -32,3 +32,5 @@ GitHub 仓库 Settings → Pages 的 Build and deployment Source 必须为 **Git
 初次迁移前状态见 [history](docs/history/README.md)。App 上架与网站发布独立；版本同步规则见 [APP_RELEASE_SYNC.md](docs/APP_RELEASE_SYNC.md)。
 
 参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) · [自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。
+
+本次迁移已完成真实 Actions 部署与正常解析 29/29、五页桌面/390px 浏览器检查；[迁移报告](docs/reports/2026-10-03-source-migration.md)保留提交、CI 链接与初始等待超时观察。迁移发布提交为 `9141b604aadbdaac585bdcfe6c8f822ee026d03f`，后续文档提交不改变网页源文件。
