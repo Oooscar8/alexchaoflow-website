@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "app_id": "com.oooscar8.AssetTrack",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "build": "2",
+      "state": "prepared",
+      "updated_at": "2026-10-03",
+      "notes_url": "https://alexchaoflow.com/jianshan/releases/1.0.0/",
+      "notes_sha256": "63fa15e5fb11691184c1dda6677f6b70a1a82ff7fb3914ce83f04074b47eee87",
+      "app_store_url": null,
+      "testflight_url": null
+    }
+  ]
+}

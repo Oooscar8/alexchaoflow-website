@@ -1,21 +1,43 @@
 # AlexChaoFlow 网站
 
-AlexChaoFlow 产品主页与见山 iOS App 官网。静态 HTML、CSS 和 JavaScript，无运行时依赖。
+这是 AlexChaoFlow 个人网站，以及见山和未来其他 App 官网的唯一网页源码仓库。网站使用静态 HTML、CSS、JavaScript 和图片，没有运行时后端或数据库。
 
-## 入口索引
+正式入口：[个人首页](https://alexchaoflow.com/) · [见山官网](https://alexchaoflow.com/jianshan/) · [隐私政策](https://alexchaoflow.com/jianshan/privacy/) · [使用支持](https://alexchaoflow.com/jianshan/support/)。见山目前仍在准备上架，尚无公开 App 下载。
 
-- [产品主页](index.html)
-- [见山官网](jianshan/index.html)
-- [隐私政策](jianshan/privacy/index.html)
-- [使用支持](jianshan/support/index.html)
-- [部署与更新说明](DEPLOYMENT.md)
-- [来源提交与文件摘要](DEPLOYMENT.json)
-- [维护者与 Agents 指南](AGENTS.md)
+## 开发入口
 
-## 本机预览
+| 内容 | 位置 |
+| --- | --- |
+| 个人首页 | [site/index.html](site/index.html) |
+| 见山官网 | [site/jianshan/index.html](site/jianshan/index.html) |
+| 版本公开状态 | [site/jianshan/releases.json](site/jianshan/releases.json) · [1.0.0 说明](site/jianshan/releases/1.0.0/index.html) |
+| 网站架构与职责 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
+| 本地验证、浏览器检查与线上验证 | [docs/TESTING.md](docs/TESTING.md) |
+| 发布、域名与故障排查 | [DEPLOYMENT.md](DEPLOYMENT.md) |
+| App 版本与官网同步 | [docs/APP_RELEASE_SYNC.md](docs/APP_RELEASE_SYNC.md) |
+| 当前网页文件摘要 | [DEPLOYMENT.json](DEPLOYMENT.json) |
+| 迭代记录 | [docs/iterations/README.md](docs/iterations/README.md) |
+| 测试报告 | [docs/reports/README.md](docs/reports/README.md) |
+| 历史来源记录 | [docs/history/README.md](docs/history/README.md) |
+| 维护者与 Agents 规则 | [AGENTS.md](AGENTS.md) |
 
-在本仓库运行 `python3 -m http.server 4173 --bind 127.0.0.1`，打开 `http://127.0.0.1:4173/jianshan/`。
+## 本机开发
 
-GitHub Pages 发布 `main` 分支根目录，`.nojekyll` 保证直接提供静态文件。正式官网为 [alexchaoflow.com/jianshan/](https://alexchaoflow.com/jianshan/)。域名、DNS-only 记录、GitHub 验证/绑定及强制 HTTPS 已配置，仓库保留 CNAME。正常系统解析的资源/跳转单次 27/27 通过，TLS 与内容哈希匹配，品牌主页、见山、隐私和支持四页已在普通浏览器打开。之前的解析及连接重置问题与最终通过分别留存于维护仓库报告。
+本地仓库为 `~/my/alexchaoflow-website`。从最新 `main` 新建工作分支，直接编辑 `site/`；不再从 App 仓库复制网页，也不生成并提交第二份 `dist/`。
 
-App 尚未在 App Store 发布，页面不提供虚假的下载链接。支持联系方式将在公开发行前补齐。
+```bash
+python3 -m http.server 4173 --bind 127.0.0.1 --directory site
+```
+
+打开 `http://127.0.0.1:4173/` 或 `/jianshan/`。修改并审阅网页后运行：
+
+```bash
+python3 scripts/update_manifest.py
+python3 scripts/check_site.py
+python3 -m unittest discover -s tests -v
+node --check site/jianshan/site.js
+```
+
+GitHub Actions 对 PR 执行检查；`main` 推送或在 `main` 手动运行后，仅将 `site/` 发布至 GitHub Pages。Cloudflare 管理域名与 DNS，网页流量以 DNS only 方式直接到 GitHub Pages。
+
+[AssetTrack-iOS](https://github.com/Oooscar8/AssetTrack-iOS) 是私有 App 仓库，负责 iOS 源码、App 测试、产品架构、调试和 App 版本记录。每次准备 TestFlight 或正式发布见山新版本，必须先更新本仓库相应页面和版本记录，再通过 App 仓库的官网同步检查；具体步骤见[同步协议](docs/APP_RELEASE_SYNC.md)。
