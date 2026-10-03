@@ -35,7 +35,7 @@
   },
   "source_revision": {
     "type": "sha256-file-manifest",
-    "sha256": "77b36229e7547ad02308142ec6a43f56556ef58f3b62ea07e97c2f816d91e33c"
+    "sha256": "398ff9d7ab965b81e7f572aa5fa6151bcc5a3f6b4cafd82122a7a6b0b6143cf5"
   },
   "files_sha256": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -45,12 +45,12 @@
     "jianshan/assets/expenses.png": "3d04551c9bad07f3b4ee96d837543dd7b960f4778f7355dae9d0452cee3c3ba2",
     "jianshan/assets/overview.png": "e4dba4d49dd6ae625b599779f54e81e22758bdaced114eaa5732b4e17b102a30",
     "jianshan/index.html": "569bf2c996f8439b86353dcfc99b95f507d4339be1becc663d780bf7196542bb",
-    "jianshan/privacy/index.html": "b1092e354e68d3061832255ce8a133058d7229109a9be4c995b91fba2547529d",
-    "jianshan/releases/1.0.0/index.html": "541949e225daa900548742abee6d7d62b44c94c5dbc0f177da32e71a91fd82fc",
-    "jianshan/releases.json": "594df2d6b81122474d23817ea5381605ab72e8b9d9a0cdc9e415c4d8ec06ffdd",
+    "jianshan/privacy/index.html": "da10c14d2b72db63c830b1240afe8a5970cf2c6c342317dc17bfe61fdd711c23",
+    "jianshan/releases/1.0.0/index.html": "bba356f2097396e8a53e2e9acffd86a50465b620e08d302aa128fa2c187b2382",
+    "jianshan/releases.json": "b30b663e0ca1b9f76af6dce23b99fcc343e686d71481a2ee8a2711532186e7e4",
     "jianshan/site.js": "6a587fa600b9a23bf008c7a7ec06dcd5a7b0ac193412d67951f7279221207778",
     "jianshan/styles.css": "0fb944543616767e20cc813465ece91083baca36d8057dfedd87b37f55b2d119",
-    "jianshan/support/index.html": "406677dadf5f4fd4d1223b1a41dbebbdbec363d15108409c7f4b6030e574e697"
+    "jianshan/support/index.html": "acb89505cda87d926c582b0a598c730c65d9b5879dacf6ab98b0c7364fbfe325"
   },
   "content_update": {
     "app_version": "1.0.0",
@@ -71,5 +71,18 @@
       "browser_acceptance": "not-run-for-build3-device-locked",
       "verified_at_utc": "2026-10-03T10:38:51.843513+00:00"
     }
+  },
+  "support_contact": {
+    "address": "support@alexchaoflow.com",
+    "routing_provider": "Cloudflare Email Routing",
+    "routing_status": "configured",
+    "destination_verified": true,
+    "exact_rule_active": true,
+    "catch_all_enabled": false,
+    "dns_verified_at_utc": "2026-10-03T13:44:36.099705+00:00",
+    "end_to_end_receipt_verified": false,
+    "verification_status": "configured-awaiting-receipt-test",
+    "documentation": "docs/SUPPORT_CONTACT.md",
+    "website_verification_status": "prepared-awaiting-production-verification"
   }
 }

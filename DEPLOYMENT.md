@@ -34,3 +34,7 @@ GitHub 仓库 Settings → Pages 的 Build and deployment Source 必须为 **Git
 参考：[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) · [自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)。
 
 本次迁移已完成真实 Actions 部署与正常解析 29/29、五页桌面/390px 浏览器检查；[迁移报告](docs/reports/2026-10-03-source-migration.md)保留提交、CI 链接与初始等待超时观察。迁移发布提交为 `9141b604aadbdaac585bdcfe6c8f822ee026d03f`，后续文档提交不改变网页源文件。
+
+## 公开支持邮箱
+
+公开联系地址为 support@alexchaoflow.com。Email Routing 与网站 Pages 部署独立；邮件 MX/SPF/DKIM 不改变网站的 A/CNAME 或 GitHub 验证 TXT。配置与真实收件验证的边界见[支持邮箱维护](docs/SUPPORT_CONTACT.md)，目标收件账户资料不进入此公开仓库。
