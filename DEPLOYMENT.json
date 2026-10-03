@@ -56,8 +56,20 @@
     "app_version": "1.0.0",
     "app_build": "4",
     "state": "prepared",
-    "verification_status": "prepared-awaiting-production-verification",
-    "local_report": "docs/reports/2026-10-03-jianshan-build4-ecb.md"
+    "verification_status": "deployed-partial-network-timeouts",
+    "local_report": "docs/reports/2026-10-03-jianshan-build4-ecb.md",
+    "verification": {
+      "website_commit": "a00648bdef03ea94475a7f603a9259b17380b85e",
+      "actions_run": "https://github.com/Oooscar8/alexchaoflow-website/actions/runs/37128825031",
+      "http_total": 29,
+      "http_passed": 26,
+      "http_report": "docs/reports/2026-10-03-jianshan-build4-production.json",
+      "checked_at_utc": "2026-10-03T14:14:38.147888+00:00",
+      "dns_mode": "system-resolver",
+      "tls_validation_disabled": false,
+      "full_single_run_http_passed": false,
+      "browser_acceptance": "not-run-this-update"
+    }
   },
   "support_contact": {
     "address": "support@alexchaoflow.com",
