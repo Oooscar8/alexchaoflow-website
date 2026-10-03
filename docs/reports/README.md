@@ -11,3 +11,5 @@
 构建 3 HTTP 原始证据：[首轮 28/29](2026-10-03-jianshan-build3-production-first.json) · [完整复查 29/29](2026-10-03-jianshan-build3-production-recheck.json)。本轮无新增浏览器验收。
 
 - [2026-10-03：公开支持邮箱页面验证](2026-10-03-public-support-email.md)
+
+公开支持邮箱 HTTP 原始证据：[首次 26/29](2026-10-03-public-support-email-production-first.json) · [复查 27/29](2026-10-03-public-support-email-production-recheck.json)。本轮单次完整验收尚未通过。
