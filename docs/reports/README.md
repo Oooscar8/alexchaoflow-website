@@ -13,3 +13,6 @@
 - [2026-10-03：公开支持邮箱页面验证](2026-10-03-public-support-email.md)
 
 公开支持邮箱 HTTP 原始证据：[首次 26/29](2026-10-03-public-support-email-production-first.json) · [复查 27/29](2026-10-03-public-support-email-production-recheck.json)。本轮单次完整验收尚未通过。
+
+- [2026-10-03：用户报告支持邮箱收到测试邮件](2026-10-03-support-email-receipt-user-report.md)
+- [2026-10-03：见山构建 4 官网检查](2026-10-03-jianshan-build4-ecb.md)

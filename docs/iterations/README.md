@@ -5,3 +5,5 @@
 - [2026-10-03：同步见山 1.0.0（构建 3）准备版本](2026-10-03-jianshan-build3-preparation.md)
 
 - [2026-10-03：公开支持邮箱](2026-10-03-public-support-email.md)
+
+- [2026-10-03：见山构建 4 的 ECB 汇率来源同步](2026-10-03-jianshan-build4-ecb.md)
