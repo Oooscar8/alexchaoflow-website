@@ -1,0 +1,66 @@
+{
+  "recorded_at_utc": "2026-10-03T08:30:19.880250+00:00",
+  "website_commit": "9141b604aadbdaac585bdcfe6c8f822ee026d03f",
+  "method": "Normal in-app browser navigation; no DNS overrides or TLS bypass; DOM and visual inspection.",
+  "pages": [
+    {
+      "url": "https://alexchaoflow.com/",
+      "title": "AlexChaoFlow · 让日常更清楚",
+      "desktop_width": 1280,
+      "mobile_width": 390,
+      "desktop_horizontal_overflow": false,
+      "mobile_horizontal_overflow": false,
+      "final_broken_images": 0,
+      "final_pending_images": 0
+    },
+    {
+      "url": "https://alexchaoflow.com/jianshan/",
+      "title": "见山 · 个人资产追踪",
+      "desktop_width": 1280,
+      "mobile_width": 390,
+      "desktop_horizontal_overflow": false,
+      "mobile_horizontal_overflow": false,
+      "final_broken_images": 0,
+      "final_pending_images": 0
+    },
+    {
+      "url": "https://alexchaoflow.com/jianshan/privacy/",
+      "title": "隐私政策 · 见山",
+      "desktop_width": 1280,
+      "mobile_width": 390,
+      "desktop_horizontal_overflow": false,
+      "mobile_horizontal_overflow": false,
+      "final_broken_images": 0,
+      "final_pending_images": 0
+    },
+    {
+      "url": "https://alexchaoflow.com/jianshan/support/",
+      "title": "使用支持 · 见山",
+      "desktop_width": 1280,
+      "mobile_width": 390,
+      "desktop_horizontal_overflow": false,
+      "mobile_horizontal_overflow": false,
+      "final_broken_images": 0,
+      "final_pending_images": 0
+    },
+    {
+      "url": "https://alexchaoflow.com/jianshan/releases/1.0.0/",
+      "title": "1.0.0 版本记录 · 见山",
+      "desktop_width": 1280,
+      "mobile_width": 390,
+      "desktop_horizontal_overflow": false,
+      "mobile_horizontal_overflow": false,
+      "final_broken_images": 0,
+      "final_pending_images": 0
+    }
+  ],
+  "interactions": {
+    "release_notes_link": "passed; visible prepared 1.0.0 (2)",
+    "faq": "passed; first question expanded and answer present",
+    "asset_preview": "passed; pressed state and source changed to assets.png, final complete=true and naturalWidth=1320"
+  },
+  "transient_observations": [
+    "An initial image load and load-state wait timed out. A navigation to the brand root also timed out in the automation call, then the ordinary browser completed it. Subsequent five-page desktop/mobile inspection completed with no broken or pending images."
+  ],
+  "scope": "Five pages at desktop and 390px; not all screen sizes, accessibility modes, or App runtime tests."
+}
