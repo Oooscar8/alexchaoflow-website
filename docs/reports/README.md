@@ -7,3 +7,5 @@
 线上原始证据：[29项HTTP验证](2026-10-03-source-migration-production.json) · [浏览器五页检查](2026-10-03-source-migration-browser.json)。
 
 - [2026-10-03：见山构建 3 官网准备版检查](2026-10-03-jianshan-build3-preparation.md)
+
+构建 3 HTTP 原始证据：[首轮 28/29](2026-10-03-jianshan-build3-production-first.json) · [完整复查 29/29](2026-10-03-jianshan-build3-production-recheck.json)。本轮无新增浏览器验收。

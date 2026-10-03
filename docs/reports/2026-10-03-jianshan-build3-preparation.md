@@ -10,6 +10,17 @@
 - 13 个网站资源中只有版本说明、版本 JSON、支持页 3 个文件改变，其余 10 个摘要保持不变。功能介绍、截图与隐私政策经本次新增支持入口范围审阅后沿用。
 - 原构建 2 和仓库迁移测试报告原样保留；本次原始检查摘要见[本地证据](2026-10-03-jianshan-build3-preparation-local.json)。
 
-## 后续验证边界
+## 准备阶段验证边界（历史）
 
 此准备阶段尚未提交或推送，不代表 CI、新网页公网访问或浏览器验收已经通过。待发布维护者审核并部署后，记录真实部署提交、执行网站线上访问验证及 App 官网同步门禁。本报告不代替 iOS 测试，也不声称 App 已上传、已通过审核或已发布。
+
+
+## 发布后 HTTP 验证
+
+构建 3 官网源提交 `d099fa2cfe50ac25e3c352baeff4671775608a65` 已部署，[Pages Actions 37116877131](https://github.com/Oooscar8/alexchaoflow-website/actions/runs/37116877131) 状态为 success。Pages 配置核实为 workflow 来源、域名 alexchaoflow.com、强制 HTTPS 已开启。App 的 prepared 官网同步门禁由 App 仓库另行记录；本报告不将其视作 Apple 上架成功。
+
+- [首轮完整 HTTP 检查](2026-10-03-jianshan-build3-production-first.json)：28/29。唯一失败为 `https://www.alexchaoflow.com/jianshan/support/`，已正确跳转到正式 HTTPS 页面，HTTP 200、TLS 验证结果 0，但在 25 秒超时前只收到 4029/5246 字节，curl 退出 28，正文摘要不完整，按失败保留。
+- [第二次完整 HTTP 检查](2026-10-03-jianshan-build3-production-recheck.json)：29/29。13 个资源及 16 个跳转在单次完整运行中通过，状态码、最终网址、TLS 验证和正文 SHA-256 均符合预期。
+- 两轮使用相同脚本和同一网页内容摘要，均为正常系统 DNS、环境默认代理、默认 TLS 校验，没有使用解析覆盖，也没有放宽 25 秒超时或内容检查。原始 JSON 逐字节归档，没有覆盖或改写首轮失败。
+- 本轮没有新增浏览器验收：执行时 Mac 已锁屏。此前迁移的浏览器结果属于构建 2，不能代替构建 3 的视觉与交互验证。
+- 当前网页继续表示 1.0.0（构建 3）准备中，没有公开下载或未经确认的支持联系方式。此次证据收尾只修改文档和 manifest 状态，不修改任何 site/ 资源。
