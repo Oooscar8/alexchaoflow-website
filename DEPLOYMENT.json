@@ -35,7 +35,7 @@
   },
   "source_revision": {
     "type": "sha256-file-manifest",
-    "sha256": "c1d2350cea7472ea8416e4586127653846a993da7f35c28d576c7518923bddb1"
+    "sha256": "77b36229e7547ad02308142ec6a43f56556ef58f3b62ea07e97c2f816d91e33c"
   },
   "files_sha256": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -46,10 +46,17 @@
     "jianshan/assets/overview.png": "e4dba4d49dd6ae625b599779f54e81e22758bdaced114eaa5732b4e17b102a30",
     "jianshan/index.html": "569bf2c996f8439b86353dcfc99b95f507d4339be1becc663d780bf7196542bb",
     "jianshan/privacy/index.html": "b1092e354e68d3061832255ce8a133058d7229109a9be4c995b91fba2547529d",
-    "jianshan/releases/1.0.0/index.html": "63fa15e5fb11691184c1dda6677f6b70a1a82ff7fb3914ce83f04074b47eee87",
-    "jianshan/releases.json": "b873d7276c96412badff678400f9b702eaa3bf8dea81343f69497a4e846bd7c4",
+    "jianshan/releases/1.0.0/index.html": "541949e225daa900548742abee6d7d62b44c94c5dbc0f177da32e71a91fd82fc",
+    "jianshan/releases.json": "594df2d6b81122474d23817ea5381605ab72e8b9d9a0cdc9e415c4d8ec06ffdd",
     "jianshan/site.js": "6a587fa600b9a23bf008c7a7ec06dcd5a7b0ac193412d67951f7279221207778",
     "jianshan/styles.css": "0fb944543616767e20cc813465ece91083baca36d8057dfedd87b37f55b2d119",
-    "jianshan/support/index.html": "05b4b91e14aed63a96d6e33bec05de8ef0186c98efb530dffba4dee99a190562"
+    "jianshan/support/index.html": "406677dadf5f4fd4d1223b1a41dbebbdbec363d15108409c7f4b6030e574e697"
+  },
+  "content_update": {
+    "app_version": "1.0.0",
+    "app_build": "3",
+    "state": "prepared",
+    "verification_status": "prepared-awaiting-production-verification",
+    "local_report": "docs/reports/2026-10-03-jianshan-build3-preparation.md"
   }
 }

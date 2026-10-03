@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-10-03T10:31:37.377622+00:00",
+  "scope": "local website content checks only; no App Store/TestFlight release or production verification",
+  "baseline_website_commit": "ee2ecca8cea94a4238e1202b24ebb938022cf334",
+  "record": {
+    "version": "1.0.0",
+    "build": "3",
+    "state": "prepared",
+    "updated_at": "2026-10-03",
+    "notes_url": "https://alexchaoflow.com/jianshan/releases/1.0.0/",
+    "notes_sha256": "541949e225daa900548742abee6d7d62b44c94c5dbc0f177da32e71a91fd82fc",
+    "app_store_url": null,
+    "testflight_url": null
+  },
+  "changed_web_assets": [
+    "jianshan/releases/1.0.0/index.html",
+    "jianshan/releases.json",
+    "jianshan/support/index.html"
+  ],
+  "unchanged_web_assets": 10,
+  "html_pages": 5,
+  "local_references": 74,
+  "files_sha256_checked": 13,
+  "unit_tests": {
+    "total": 13,
+    "passed": 13
+  },
+  "javascript_syntax": "passed",
+  "visible_marker_attributes": "one matching version/build/state marker",
+  "public_download_urls": false,
+  "source_revision": {
+    "type": "sha256-file-manifest",
+    "sha256": "77b36229e7547ad02308142ec6a43f56556ef58f3b62ea07e97c2f816d91e33c"
+  },
+  "production_verified": false
+}
